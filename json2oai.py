@@ -5,6 +5,7 @@ import json
 from datetime import datetime
 
 JSON_DIR = "data"
+metadata_format = "oai_dc"
 current_datetime = datetime.now().isoformat()
 
 def read_jsons(directory = JSON_DIR):
@@ -27,7 +28,7 @@ def prepare_oai_dict():
             'responseDate': current_datetime,
             'request': {
                 '@verb': 'ListRecords',
-                '@metadataPrefix': 'oai_dc',
+                '@metadataPrefix': metadata_format,
                 '#text': 'https://dataverse.harvard.edu/oai'},
             'ListRecords': {
                 'record': []
@@ -38,21 +39,47 @@ def prepare_oai_dict():
     return oai_dict
 
 def prepare_dc_json(doi, json):
-    """prepare the citation json object"""
+    """Extract Dublin Core metadata from the json object and add it to the oai response"""
+
+    #TODO map non-dc metadata to dublin core, verify which fields exist in Dataverse
     
     dc_json = {}
+    identifier = None
+
     for key, value in json.items():
         key = key.lower().replace(".",":")
         if key.startswith("dc:"):
             dc_json[key] = value
-            
+
+        #FIND IDENTIFIER AS URL OR DOI
+        if key.startswith("dc:identifier"):
+            if type(value) is str:
+                value = [value]
+            for v in value:
+                if key.startswith("dc:identifier:doi"):
+                    if key.startswith("doi:"):
+                        identifier = "http://doi.org/" + v.split("doi:")[1]
+                    else:
+                        identifier = "http://doi.org/" + v
+                elif key.startswith("dc:identifier:uri"):
+                    if key.startswith("http"):
+                        identifier = key
+                elif key == "dc:identifier":
+                    if key.startswith("doi"):
+                        identifier = "http://doi.org/" + v.split("doi:")[1]
+                    elif key.startswith("http"):
+                        identifier = key
+
+    if identifier is None:
+        print (f"DOI {doi} has no valid identifier")
+        return {}
     if len(dc_json) == 0:
         print(f"DOI {doi} has no dc-prefixed metadata")
         return {}
     
     oai_dict = {
         'header': {
-            'identifier': doi,
+            'identifier': identifier,
             'datestamp': current_datetime,
         },
         'metadata': {
@@ -69,10 +96,13 @@ def prepare_dc_json(doi, json):
 
 
 def main():
+    """reads json citation data and writes it to an XML file in OAI-PMH format"""
     oai_dict = prepare_oai_dict()
     jsons = read_jsons()
-    for k, data in jsons.items():
-        oai_dict['OAI-PMH']['ListRecords']['record'].append(prepare_dc_json(k, data))
+    for name, data in jsons.items():
+        # TODO replace name from filename to doi
+        oai_record = prepare_dc_json(name, data)
+        oai_dict['OAI-PMH']['ListRecords']['record'].append(oai_record)
 
     with open("outputs/oai", "w") as file:
         file.write(xmltodict.unparse(oai_dict, pretty=True))
