@@ -1,0 +1,28 @@
+{
+    "dc.contributor.author": [
+        "Lange, I",
+        "Perry, C"
+    ],
+    "dc.date.accessioned": "2020-03-04T13:40:31Z",
+    "dc.date.issued": "2020-03-04",
+    "dc.description.abstract": "This is the dataset used for the Lange et al. (2020) article \"A quick, easy and non-invasive method to quantify coral growth rates using photogrammetry and 3D model comparisons\" published in Methods in Ecology & Evolution.",
+    "dc.description.sponsorship": "Bertarelli Foundation",
+    "dc.format": ".xlsx",
+    "dc.identifier.doi": "10.24378/exe.2243",
+    "dc.identifier.uri": "http://hdl.handle.net/10871/120158",
+    "dc.language.iso": "en",
+    "dc.publisher": "University of Exeter",
+    "dc.relation.url": "http://hdl.handle.net/10871/120160",
+    "dc.rights": "CC BY 4.0",
+    "dc.title": "A quick, easy and non-invasive method to quantify coral growth rates using photogrammetry and 3D model comparisons (dataset)",
+    "dc.type": "Dataset",
+    "dc.date.available": "2020-03-04T13:40:31Z",
+    "dc.description": [
+        "Details of 3D models, precision analysis and measured annual coral growth rates as .xlsx file with 4 data sheets",
+        "The article associated with this dataset is located in ORE at: http://hdl.handle.net/10871/120160"
+    ],
+    "dc.rights.uri": "https://creativecommons.org/licenses/by/4.0",
+    "rioxxterms.version": "NA",
+    "rioxxterms.type": "Other",
+    "refterms.dateFOA": "2020-03-04T13:40:35Z"
+}

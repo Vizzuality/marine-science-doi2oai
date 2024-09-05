@@ -1,0 +1,22 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "marine-science-doi2oai"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "xmltodict" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "xmltodict", specifier = ">=0.13.0" }]
+
+[[package]]
+name = "xmltodict"
+version = "0.13.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/39/0d/40df5be1e684bbaecdb9d1e0e40d5d482465de6b00cbb92b84ee5d243c7f/xmltodict-0.13.0.tar.gz", hash = "sha256:341595a488e3e01a85a9d8911d8912fd922ede5fecc4dce437eb4b6c8d037e56", size = 33813 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/94/db/fd0326e331726f07ff7f40675cd86aa804bfd2e5016c727fa761c934990e/xmltodict-0.13.0-py2.py3-none-any.whl", hash = "sha256:aa89e8fd76320154a40d19a0df04a4695fb9dc5ba977cbb68ab3e4eb225e7852", size = 9971 },
+]

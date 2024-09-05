@@ -1,0 +1,54 @@
+{
+    "datacite.RelatedIdentifier": "https://doi.org/10.1098/rspb.2016.2581",
+    "datacite.RelatedIdentifier.relatedIdentifierType": "DOI",
+    "datacite.RelatedIdentifier.relationType": "IsSupplementTo",
+    "dc.contributor.author": [
+        "Hays, Graeme C.",
+        "Esteban, Nicole",
+        "Rattray, Alex"
+    ],
+    "dc.date.accessioned": "2024-01-23T15:15:41Z",
+    "dc.date.available": "2024-01-23T15:15:41Z",
+    "dc.date.issued": "2024-01-23",
+    "dc.description.abstract": "Estimating the absolute number of individuals in populations and their fecundity is central to understanding the ecosystem role of species and their population dynamics as well as allowing informed conservation management for endangered species. Estimates of abundance and fecundity are often difficult to obtain for rare or cryptic species. Yet, in addition, here we show for a charismatic group, sea turtles, that are neither cryptic nor rare and whose nesting is easy to observe, that the traditional approach of direct observations of nesting has likely led to a gross overestimation of the number of individuals in populations and underestimation of their fecundity. We use high-resolution GPS satellite tags to track female green turtles throughout their nesting season in the Chagos Archipelago (Indian Ocean) and assess when and where they nested. For individual turtles, nest locations were often spread over several tens of kilometres of coastline. Assessed by satellite observations, a mean of 6.0 clutches (range 2\u20139, s.d. = 2.2) was laid by individuals, about twice as many as previously assumed, a finding also reported in other species and ocean basins. Taken together, these findings suggest that the actual number of nesting turtles may be almost 50% less than previously assumed.",
+    "dc.identifier.doi": "doi:10.5441/001/1.313",
+    "dc.identifier.uri": "https://datarepository.movebank.org/handle/10255/move.1688",
+    "dc.language.iso": "eng",
+    "dc.relation.isreferencedby": [
+        "doi:10.1098/rspb.2016.2581",
+        "doi:10.1016/j.cub.2020.05.086"
+    ],
+    "dc.rights": "CC0 1.0 Universal",
+    "dc.rights.uri": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "dc.subject": [
+        "Chelonia mydas",
+        "animal movement",
+        "animal tracking",
+        "Argos",
+        "GPS",
+        "green sea turtle",
+        "reptiles",
+        "satellite telemetry"
+    ],
+    "dc.title": "Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\"",
+    "dspace.entity.type": "Data package",
+    "dwc.ScientificName": "Chelonia mydas",
+    "mdr.animal.count": "33",
+    "mdr.citation.BibTex": "@misc{001/1_313,\n  title = {Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\"},\n  author = {Hays, GC and Esteban, N and Rattray, A},\n  year = {2024},\n  URL = {http://dx.doi.org/10.5441/001/1.313},\n  doi = {doi:10.5441/001/1.313},\n  publisher = {Movebank data repository}\n}",
+    "mdr.citation.CSE": "Hays GC, Esteban N, Rattray A. 2024. Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\". Movebank Data Repository.https://doi.org/10.5441/001/1.313",
+    "mdr.citation.RIS": "TY  - DATA\nID  - doi:10.5441/001/1.313\nT1  - Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\"\nAU  - Hays, Graeme C.\nAU  - Esteban, Nicole\nAU  - Rattray, Alex\nY1  - 2024/01/23\nKW  - Chelonia mydas\nKW  - animal movement\nKW  - animal tracking\nKW  - Argos\nKW  - GPS\nKW  - green sea turtle\nKW  - reptiles\nKW  - satellite telemetry\nKW  - Chelonia mydas\nPB  - Movebank data repository\nUR  - http://dx.doi.org/10.5441/001/1.313\nDO  - doi:10.5441/001/1.313\nER  -",
+    "mdr.journal.title": "Philosophical Transactions of the Royal Society",
+    "mdr.location.count": "55411",
+    "mdr.study.id": "3267664208",
+    "relation.isSensorOfDatapackage": [
+        "32573e6b-4e7b-4144-b181-0288c3682347",
+        "48e0a9a2-e354-4a92-976c-a3040768e96c"
+    ],
+    "relation.isSensorOfDatapackage.latestForDiscovery": "32573e6b-4e7b-4144-b181-0288c3682347",
+    "relation.isTaxonOfDatapackage": "b775e860-f19d-4c8f-9ce0-199e7af2789c",
+    "relation.isTaxonOfDatapackage.latestForDiscovery": "b775e860-f19d-4c8f-9ce0-199e7af2789c",
+    "sensor.name": [
+        "GPS",
+        "Argos Doppler Shift"
+    ]
+}

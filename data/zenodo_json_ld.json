@@ -1,0 +1,102 @@
+{
+    "@context": "http://schema.org",
+    "@id": "https://doi.org/10.5281/zenodo.7948517",
+    "@type": "https://schema.org/CreativeWork",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3288-6398",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Plymouth"
+                }
+            ],
+            "familyName": "Diaz",
+            "givenName": "Clara",
+            "name": "Diaz, Clara"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9796-1753",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Plymouth"
+                }
+            ],
+            "familyName": "Foster",
+            "givenName": "L. Nicola",
+            "name": "Foster, L. Nicola"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3359-1778",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Plymouth"
+                }
+            ],
+            "familyName": "Howell",
+            "givenName": "L. Kerry",
+            "name": "Howell, L. Kerry"
+        }
+    ],
+    "contentSize": "12.43 MB",
+    "creator": [
+        {
+            "@id": "https://orcid.org/0000-0003-3288-6398",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Plymouth"
+                }
+            ],
+            "familyName": "Diaz",
+            "givenName": "Clara",
+            "name": "Diaz, Clara"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9796-1753",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Plymouth"
+                }
+            ],
+            "familyName": "Foster",
+            "givenName": "L. Nicola",
+            "name": "Foster, L. Nicola"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3359-1778",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Plymouth"
+                }
+            ],
+            "familyName": "Howell",
+            "givenName": "L. Kerry",
+            "name": "Howell, L. Kerry"
+        }
+    ],
+    "dateModified": "2024-07-12T02:10:54.489735+00:00",
+    "datePublished": "2023-05-19",
+    "description": "<p>This catalogue covers the reef benthos of mesophotic coral ecosystems (MCEs) of&nbsp;the Chagos Archipelago (6&deg;&nbsp;S, 71&deg;30&rsquo;&nbsp;E), central Indian Ocean. The in-situ images presented here were collected during two expeditions, in November 2019 and March 2020. A Saab Seaeye Falcon Remotely Operated Vehicle (ROV) was used to collect benthic imagery of MCEs.&nbsp;Six depth bands were surveyed here to cover the entire MCEs depth gradient: 15 &ndash; 20 m; 30 &ndash; 40 m; 60 &ndash; 70 m; 80 &ndash; 90 m; 110 &ndash; 120 m; 150 &ndash; 160 m. The images were identified using BIIGLE 2.0, an online annotation platform (Langenk&auml;mper et al., 2017). As the standard taxonomic approaches are not often applicable to image data, all organisms were identified to the highest taxonomic resolution possible and distinct morphospecies were assigned an Operational Taxonomic Unit (OTU, IOTU for the Indian Ocean), following the method in Howell et al., (2010)&nbsp;and placed in the structure of the Standard Marine Taxonomic Reference Image Database (SMarTaR-ID) (Howell et al., 2019). A morphospecies may correspond to species, genus, family, or higher taxonomic level. All specimens were identified according to both relevant literature and taxonomists help. The classification presented here is subject to change depending on new image records/ better image quality, genetic results of several samples, or further help from taxonomists. A living version of this reference image database is available at <a href=\"https://smartar-id.app/\">https://smartar-id.app/</a>. The classification presented here is preliminary and subject to change, depending on acquired taxonomic knowledge and physical specimens collected in the future. Additional images for specific IOTUs can be asked to the author.</p>",
+    "identifier": "https://doi.org/10.5281/zenodo.7948517",
+    "keywords": "Mesophotic Coral Ecosystems, Benthos, Coral Reefs, Morphospecies, Chagos Archipelago, Central Indian Ocean",
+    "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "name": "SHALLOW AND MESOPHOTIC BENTHOS REFERENCE IMAGE DATABASE FOR THE CHAGOS ARCHIPELAGO, CENTRAL INDIAN OCEAN",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Zenodo"
+    },
+    "size": "12.43 MB",
+    "url": "https://zenodo.org/records/7948517",
+    "version": "1"
+}

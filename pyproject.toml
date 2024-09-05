@@ -1,0 +1,9 @@
+[project]
+name = "marine-science-doi2oai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "xmltodict>=0.13.0",
+]

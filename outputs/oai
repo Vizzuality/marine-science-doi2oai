@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+	<responseDate>2024-09-05T13:07:57.270495</responseDate>
+	<request verb="ListRecords" metadataPrefix="oai_dc">https://dataverse.harvard.edu/oai</request>
+	<ListRecords>
+		<record></record>
+		<record>
+			<header>
+				<identifier>soton_metadata</identifier>
+				<datestamp>2024-09-05T13:07:57.270495</datestamp>
+			</header>
+			<metadata>
+				<oai_dc:dc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+					<dc:relation>10.5258/SOTON/D2696</dc:relation>
+					<dc:title>Dataset supporting the publication &amp;quot;Reef-building corals farm and feed on their photosynthetic symbionts&amp;quot;.</dc:title>
+					<dc:creator>Vanstone, James</dc:creator>
+					<dc:description>&lt;span style='white-space:pre-line'&gt;Dataset supporting the publication by  Wiedenmann, J. et al. &amp;quot;Reef-building corals farm and feed on their photosynthetic symbionts&amp;quot;. Nature (2023). https://doi.org/10.1038/s41586-023-06442-5
+
+This dataset contains all the raw data used in the paper cited above, organised within five worksheets in an excel file:
+
+Wiedenmann et al_Repository.xlsx
+
+Worksheets are labelled as: 
+- Coral growth_10 species
+- Mean Grey Value_Calibration
+- N15 enrichment experiments
+- N-P acquisition
+- Chagos N15 and Growth Data
+
+This project was supported by NERC (NE/T001364/1)&lt;/span&gt;</dc:description>
+					<dc:publisher>University of Southampton</dc:publisher>
+					<dc:date>2023-06-28</dc:date>
+					<dc:type>NonPeerReviewed</dc:type>
+					<dc:format>text</dc:format>
+					<dc:language>English</dc:language>
+					<dc:rights>cc_by_4</dc:rights>
+					<dc:identifier>     D'angelo, Maria, Mardones Velozo, Maria and Wiedenmann, Joerg    (2023)      Dataset supporting the publication "Reef-building corals farm and feed on their photosynthetic symbionts".         University of Southampton doi:10.5258/SOTON/D2696 &lt;http://dx.doi.org/10.5258/SOTON/D2696&gt; [Dataset]     </dc:identifier>
+				</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>exeter_metadata</identifier>
+				<datestamp>2024-09-05T13:07:57.270495</datestamp>
+			</header>
+			<metadata>
+				<oai_dc:dc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+					<dc:contributor:author>Lange, I</dc:contributor:author>
+					<dc:contributor:author>Perry, C</dc:contributor:author>
+					<dc:date:accessioned>2020-03-04T13:40:31Z</dc:date:accessioned>
+					<dc:date:issued>2020-03-04</dc:date:issued>
+					<dc:description:abstract>This is the dataset used for the Lange et al. (2020) article "A quick, easy and non-invasive method to quantify coral growth rates using photogrammetry and 3D model comparisons" published in Methods in Ecology &amp; Evolution.</dc:description:abstract>
+					<dc:description:sponsorship>Bertarelli Foundation</dc:description:sponsorship>
+					<dc:format>.xlsx</dc:format>
+					<dc:identifier:doi>10.24378/exe.2243</dc:identifier:doi>
+					<dc:identifier:uri>http://hdl.handle.net/10871/120158</dc:identifier:uri>
+					<dc:language:iso>en</dc:language:iso>
+					<dc:publisher>University of Exeter</dc:publisher>
+					<dc:relation:url>http://hdl.handle.net/10871/120160</dc:relation:url>
+					<dc:rights>CC BY 4.0</dc:rights>
+					<dc:title>A quick, easy and non-invasive method to quantify coral growth rates using photogrammetry and 3D model comparisons (dataset)</dc:title>
+					<dc:type>Dataset</dc:type>
+					<dc:date:available>2020-03-04T13:40:31Z</dc:date:available>
+					<dc:description>Details of 3D models, precision analysis and measured annual coral growth rates as .xlsx file with 4 data sheets</dc:description>
+					<dc:description>The article associated with this dataset is located in ORE at: http://hdl.handle.net/10871/120160</dc:description>
+					<dc:rights:uri>https://creativecommons.org/licenses/by/4.0</dc:rights:uri>
+				</oai_dc:dc>
+			</metadata>
+		</record>
+		<record></record>
+		<record>
+			<header>
+				<identifier>movebank_metadata</identifier>
+				<datestamp>2024-09-05T13:07:57.270495</datestamp>
+			</header>
+			<metadata>
+				<oai_dc:dc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+					<dc:contributor:author>Hays, Graeme C.</dc:contributor:author>
+					<dc:contributor:author>Esteban, Nicole</dc:contributor:author>
+					<dc:contributor:author>Rattray, Alex</dc:contributor:author>
+					<dc:date:accessioned>2024-01-23T15:15:41Z</dc:date:accessioned>
+					<dc:date:available>2024-01-23T15:15:41Z</dc:date:available>
+					<dc:date:issued>2024-01-23</dc:date:issued>
+					<dc:description:abstract>Estimating the absolute number of individuals in populations and their fecundity is central to understanding the ecosystem role of species and their population dynamics as well as allowing informed conservation management for endangered species. Estimates of abundance and fecundity are often difficult to obtain for rare or cryptic species. Yet, in addition, here we show for a charismatic group, sea turtles, that are neither cryptic nor rare and whose nesting is easy to observe, that the traditional approach of direct observations of nesting has likely led to a gross overestimation of the number of individuals in populations and underestimation of their fecundity. We use high-resolution GPS satellite tags to track female green turtles throughout their nesting season in the Chagos Archipelago (Indian Ocean) and assess when and where they nested. For individual turtles, nest locations were often spread over several tens of kilometres of coastline. Assessed by satellite observations, a mean of 6.0 clutches (range 2–9, s.d. = 2.2) was laid by individuals, about twice as many as previously assumed, a finding also reported in other species and ocean basins. Taken together, these findings suggest that the actual number of nesting turtles may be almost 50% less than previously assumed.</dc:description:abstract>
+					<dc:identifier:doi>doi:10.5441/001/1.313</dc:identifier:doi>
+					<dc:identifier:uri>https://datarepository.movebank.org/handle/10255/move.1688</dc:identifier:uri>
+					<dc:language:iso>eng</dc:language:iso>
+					<dc:relation:isreferencedby>doi:10.1098/rspb.2016.2581</dc:relation:isreferencedby>
+					<dc:relation:isreferencedby>doi:10.1016/j.cub.2020.05.086</dc:relation:isreferencedby>
+					<dc:rights>CC0 1.0 Universal</dc:rights>
+					<dc:rights:uri>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights:uri>
+					<dc:subject>Chelonia mydas</dc:subject>
+					<dc:subject>animal movement</dc:subject>
+					<dc:subject>animal tracking</dc:subject>
+					<dc:subject>Argos</dc:subject>
+					<dc:subject>GPS</dc:subject>
+					<dc:subject>green sea turtle</dc:subject>
+					<dc:subject>reptiles</dc:subject>
+					<dc:subject>satellite telemetry</dc:subject>
+					<dc:title>Data from: Study "Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean"</dc:title>
+				</oai_dc:dc>
+			</metadata>
+		</record>
+		<record></record>
+	</ListRecords>
+</OAI-PMH>
